@@ -1,0 +1,7 @@
+#browser.win.win10 .window-buttongroup button {
+	width: 30px !important;
+}
+
+#tabs-container .sync-and-trash-container {
+    margin-right: -44px !important;
+}

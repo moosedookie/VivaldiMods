@@ -1,0 +1,83 @@
+/***************************************************************Window control icons*******/
+
+#browser.win .window-buttongroup button.window-minimize {
+    transform: translate(0px, 5px) !important;
+}
+
+#browser.win .window-buttongroup button.window-restore,
+#browser.win .window-buttongroup button.window-maximize {
+    transform: translate(0px, 5px) !important;
+}
+
+#browser.win .window-buttongroup button.window-close {
+    transform: translate(0px, 5px) !important;
+}
+
+#browser.win .window-buttongroup {
+    right: 0px !important;
+    top: 0px !important;
+}
+
+#browser .window-buttongroup {
+    height: 32px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+}
+
+#browser .window-buttongroup button {
+    height: 32px !important;
+    width: 22px !important;
+    margin-left: 2px !important;
+ }
+
+#browser .window-buttongroup button {
+background-repeat: no-repeat;
+ }
+
+#browser.win .window-buttongroup button.window-minimize svg path,
+#browser.win .window-buttongroup button.window-maximize svg path,
+#browser.win .window-buttongroup button.window-restore svg path,
+#browser.win .window-buttongroup button.window-close svg path {
+    display: none;
+}
+
+#browser.win .window-buttongroup button.window-minimize {
+    background-image:  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNWRHWFIAAABRSURBVDhPY/j//z9ZGKsgMRirIDEYqyAxGA6wSeLCYPBhlwc7EP8nEbOBNGKTIIgp0qiKLkgE5gD7E1sA4MNkaYJhrILEYKyCxGCsgoTxfwYAvW00gM/CYhIAAAAASUVORK5CYII=
+);
+}
+
+#browser.win .window-buttongroup button.window-restore,
+#browser.win .window-buttongroup button.window-maximize {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNWRHWFIAAABVSURBVDhPY/j//z9ZGKsgMRirIDEYqyAxGAywSRDCDLEnffmA+D+JWAOkEZsEQUyRRk4g/ossSATmhoQOEGALAFyYZA3IGKsgMRirIDEYqyBh/J8BAL+TG8Nd93m7AAAAAElFTkSuQmCC
+);
+}
+
+#browser.win .window-buttongroup button.window-close {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNWRHWFIAAABVSURBVDhPY/j//z9ZGKsgMRirIDEYqyAxGAywSeDDYPAiJoEZiP+TiHlBGrFJEMQUaWQC4rfIgkRgIYhHgQBbIODCJGtAxlgFicFYBYnBWAUJ4/8MADJKI0jL8ff1AAAAAElFTkSuQmCC
+);
+}
+
+#browser.win .window-buttongroup button {
+    background-color: transparent !important;
+    transition: all 0.2s ease;
+}
+
+#browser.win .window-buttongroup button:hover {
+    background-color: transparent !important;
+}
+
+#browser.win .window-buttongroup button.window-close:hover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjEuNWRHWFIAAADhSURBVDhPjZIxDsIwDEV7jpyqBwABigRHoBSpysCcslA4UXc4AAtLb2HygxM5aQQMv0q//RTHdkVEUdNirZys0+hELJzhKZkroZoTv6lOQBgIPPSWXsvNDICHGP97OJRHd72jU9fRbd8kMM7wEEMO+wog6qfnStO5bckYE+EAwUMMOQxagLEREh4ccC1D0AhQGj6hZxjq22MOec1AlDc0hwheuOw8LylVvsm6m2z25pAHJjan1Aj55gz2zfHjwJzQ8rwRAUZMzFIlC4A5lRoBT8zwswD4SPiH0pUT8J9LTtUb+Mr1mleylEAAAAAASUVORK5CYII=
+) !important;
+}
+
+#browser.win .window-buttongroup button.window-minimize:hover {
+    background-image:  url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS41ZEdYUgAAAIpJREFUOE+VktENgDAIBZ2jE/nZkTqBAzlA53ED5GE10CLWjzMK7xKCLET0cOxrYjamMtTAO2pJZ7WUWzAiGxGFLhAh8j2eF4hIEDG/14zYIOpFzFIhykcpRVBNQ98fRE/2emZUL+DVGBnVLEcHNTrDyHKG3/EhgfR6AIF0HQAeP67HnpySJ4+clhMfniNbJsm1QgAAAABJRU5ErkJggg==
+);
+}
+
+#browser.win .window-buttongroup button.window-restore:hover,
+#browser.win .window-buttongroup button.window-maximize:hover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS41ZEdYUgAAAHpJREFUOE+lktEJwCAMBZ3DnQou0F2cwLGETpXmiYoJRkr6cSIvOQiaQEST+7kiU5jKUAd3ZHHtXaXUG08kISJQDZRzbuicafIYTxSHdJAjRMw/Q91syAXifAijaZdXiFZRoOu/RPeo7sfxfYd7AXBY8ga5cov8cckpvCd23ERbkj7EAAAAAElFTkSuQmCC
+);
+}

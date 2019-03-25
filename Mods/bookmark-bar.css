@@ -1,6 +1,0 @@
-.bookmark-bar button[title="Show folder contents"] svg {
-    display: none;
-}
-.bookmark-bar button[title="Show folder contents"] span {
-    margin-left: unset;
-}

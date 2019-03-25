@@ -1,0 +1,8 @@
+.bookmark-bar {height: 37px; font-size: 170%;}
+.bookmark-bar,
+.bookmark-bar button {
+	padding-right: 0px; /*Shrink bar*/
+}
+.bookmark-bar button span {line-height: 18px; white-space: normal; text-overflow: clip;}
+.bookmark-bar button img {margin-top: 6px; width:26px;}
+.bookmark-bar button img + span {margin-left: 5px;}
