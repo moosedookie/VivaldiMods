@@ -1,0 +1,368 @@
+/* The Colorful Mod*/
+/*V2.3 A*/
+/*Created by Artex*/
+
+/*Vivaldi Button*/
+.vivaldi{background: var(--colorAccentBg)!important;
+}
+/*Vivaldi Button hover*/
+.vivaldi:hover{background: var(--colorAccentBgDark)!important;
+}
+
+/*Trash Can hover*/
+#tabs-container .toggle-trash:hover{background: var(--colorAccentBg)!important;
+}
+
+/*Trash can active*/
+#tabs-container .toggle-trash:active{background: var(--colorAccentBgDark)!important;
+}
+
+/*Addressbar outside borders color*/
+.toolbar.toolbar-addressbar, .button-toolbar {
+  background:var(--colorAccentBg)
+}
+
+/*Bookmark bar color*/
+.bookmark-bar,.bookmark-bar button {
+  background-color: var(--colorAccentBg) !important
+}
+
+/*Active tab color*/
+.tab.active.active {
+  background-color: var(--colorAccentBg) !important
+}
+
+/*Bookmark bar hover*/
+.bookmark-bar button:hover {
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*Sidebar tree sort selector hover*/
+.tree-item:hover{
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*sidebar panel*/
+.panel {
+  background:var(--colorAccentBg) !important;
+}
+
+/*Sidebar sort selector color*/
+.sortselector, .sortselector-dropdown {
+  background:var(--colorAccentBg) !important;
+}
+
+/*Sidebar description section color*/
+.notes-cardwrapper, .downloads-cardwrapper, .download-editor,.addbookmark-cardwrapper .upper-half, .notes-cardwrapper .upper-half, .addbookmark-cardwrapper .lower-half, .notes-cardwrapper .lower-half,.toolbar.icons button + button, .toolbar.text button + button,.toolbar.icons button:first-of-type,#panels-container.left #switch .addwebpanel-wrapper .addwebpanelcallout{
+  background: var(--colorAccentBg) !important;
+}
+
+/*sidebar notes icons hover + sidebar search color*/
+.notes-add-area-capture:hover,.notes-toggle-md:hover,.button-toolbar.add:hover,.notes-add-attachment:hover,.notes-editor .note,.panel#downloads input.title, .cardview input[type=text],.manager-editor .fieldset > input[type=text], .manager-editor .fieldset > textarea, .manager-editor .fieldset > select,.panel > header input,.sortselector-button:hover,#browser .sortselector .sortselector-dropdown:hover,.toolbar.icons button + button:hover, .toolbar.text button + button:hover, .toolbar.icons button:first-of-type:hover {
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*Sidepanel tree sort select color*/
+.tree-row[data-selected] {
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*sidebar notes button*/
+.notes-add-area-capture,.notes-add-attachment, .notes-toggle-md,.note-new, .button-toolbar.add {
+  background: var(--colorAccentBg) !important;
+}
+
+/*sidebar + bottombar color*/
+#footer, #panels-container.left, #switch, button.button-addressfield:hover {
+  background: var(--colorAccentBg) !important;
+}
+
+/*sidepanel hover icons*/
+#footer button:hover, #switch button:hover, #switch .addwebpanel-wrapper .addwebpanelcallout .add:active, .cardview textarea, .toolbar .button-toolbar:hover {
+  background: var(--colorAccentBgFadedMore) !important;
+}
+
+/*webpage capture button color*/
+#webpage-capture-button {
+  background: var(--colorAccentBg) !important;
+}
+
+/*Webpage capture button hover + sidebar active button color fix*/
+#webpage-capture-button:hover,#switch button.active {
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*Sidebar notes icons + web capture button active*/
+#webpage-capture-button:active,.notes-add-area-capture:active,.notes-toggle-md:active,.button-toolbar.add:active,.notes-add-attachment:active,.notes-editor .note,.panel#downloads input.title, .cardview input[type=text],.manager-editor .fieldset > input[type=text], .manager-editor .fieldset > textarea, .manager-editor .fieldset > select,.sortselector-button:active,#browser .sortselector .sortselector-dropdown:active,.toolbar.icons button + button:active, .toolbar.text button + button:active, .toolbar.icons button:first-of-type:active,.button-toolbar-small:active {
+  background: var(--colorAccentBgFaded) !important;
+}
+
+/*color callout*/
+#footer .callout,.pageactions .capture-container .active, .imageactions .capture-container .active, .captureactions .capture-container .active{
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*Javascript dialogue*/
+.dialog-footer,.dialog-javascript,.dialog-content{border-top: 1px solid var(--colorAccentBgDark)!important;
+  background: var(--colorAccentBgDark) !important;
+}
+
+/*fixes some color issue with certain sidebar icons, color header of callout, the find bar color*/
+.pageactions header, .imageactions header, .captureactions header,.find-in-page, #switch button:focus:not(.active) {
+  background: var(--colorAccentBg) !important;
+}
+
+/*Fixes a color issue to this theme with certain buttons*/
+.toolbar .button-toolbar,  .addressfield-popup-container .addressfield-popup{
+  background: var(--colorAccentBg) !important;
+}
+
+/*URL Icon fix*/
+button.button-addressfield{
+  background-color: var(--colorAccentBgDarker) !important;
+}
+
+/*Close, Minimize, etc color hover*/
+#browser.win.win10.tabs-top #header #titlebar .window-buttongroup button:not(.vivaldi):hover,.urlSearch section > div:hover,.searchfield:hover{
+  background: var(--colorAccentBg) !important;
+}
+
+/*Addressbar Color*/
+.addressfield {
+  background: var(--colorAccentBgDarker) !important;
+}
+
+/* Addressbar highlight*/
+.color-behind-tabs-on .addressfield, .color-behind-tabs-on .searchfield, .color-behind-tabs-on .addressfield:focus-within, .color-behind-tabs-on .searchfield:focus-within, .addressfield:focus-within, .searchfield:focus-within {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+/*Description bar top border*/
+#footer {
+  box-shadow: inset 0 1px var(--colorAccentBg)!important;
+}
+
+/*Addressbar bottom border*/
+.address-top .toolbar-addressbar:after, .address-top .toolbar-mailbar:after {
+  background: var(--colorAccentBg) !important;
+}
+
+/*Bookmark bar border*/
+.bookmark-bar {
+  border-color: var(--colorAccentBg) !important;
+}
+
+/*stacked tabs indicator and a bit bigger for bottom tabs*/
+.tab-group-indicator .tab-indicator.active {
+  background-color: goldenrod !important;
+}
+.tab-group-indicator .tab-indicator {
+  background-color: #fff !important;
+}
+.tab-group-indicator .tab-indicator:hover:not(.active) {
+  background-color: #000 !important;
+}
+
+.tabs-bottom .tab-group-indicator .tab-indicator.active {
+  padding-top: 3px;
+}
+
+/*Addressfield Border*/
+.color-behind-tabs-on .addressfield, .color-behind-tabs-on .searchfield {
+  border-color: var(--colorAccentBg) !important;
+}
+@keyframes fade {
+  from {
+      opacity: 1
+ }
+  to {
+      opacity: 0.4
+ }
+}
+
+/*Blinking reload/stop button when active*/
+.button-toolbar.reload.loading svg {
+  animation-name: fade;
+  animation-duration: 350ms !important;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+/*Hide Disabled button*/
+button.button-toolbar[disabled] {
+  display: none;
+}
+
+/*Home Button*/
+button.button-toolbar.home {
+  display: none;
+}
+
+/*addressfield pageload indicator*/
+.addressfield .pageload .pageload-indicator::-webkit-progress-value {
+  background-color: var(--colorAccentBgDarker) !important;
+}
+.addressfield .pageload:not(.unstarted).progress-done {
+  opacity: 0 !important;
+  border: none !important;
+}
+.addressfield .pageload .pageload-indicator {
+  height: 24px !important;
+  bottom: 0 !important;
+  opacity: .5 !important;
+}
+
+/*URL dropdown color & highlight*/
+.urlSearch {
+  background-color: var(--colorAccentBgDarker) !important;
+}
+.omni-clickable.highlight {
+  background-color: var(--colorAccentBgDark) !important;
+}
+
+/*Icon Fill color*/
+.toolbar.toolbar-addressbar svg, .button-addressfield.bookmark svg .bookmark-outline, #tabs-container > div.resize > div.tab-strip > div > div > div.tab-header > span.close > svg, #switch svg, #footer svg, #footer svg g {
+  fill: var(--colorAccentBgFadedMost) !important;
+}
+
+/*Startpage navigation*/
+@keyframes show-startpage-navigation {
+  from {
+      top: -45px;
+ }
+  to {
+      top: 0;
+ }
+}
+@keyframes hide-startpage-navigation {
+  from {
+      top: 0;
+ }
+  to {
+      top: -45px;
+ }
+}
+.startpage-navigation {
+  animation: hide-startpage-navigation 1s ease forwards;
+}
+.startpage-navigation:hover {
+  animation: show-startpage-navigation 1s ease forwards;
+}
+.startpage .startpage-navigation {
+  background-color: #111;
+  opacity: 0.6;
+  box-shadow: none;
+  color: #fff;
+}
+.startpage .button-startpage.active {
+  background-color: #222;
+  color: #fff;
+}
+
+/*Sidebar searchfield*/
+.toolbar.icons input[type=search] {
+ border: background-color: var(--colorAccentBg) !important;
+  box-shadow: background-color: var(--colorAccentBg) !important;
+}
+
+/*Sidebar icons borders*/
+.toolbar.icons button, .toolbar.text button{
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+}
+.sortselector.sortselector-compact .sortselector-button{
+  border-left: 0px solid var(--colorAccentBg)!important;
+}
+.sortselector{
+  border-color: var(--colorAccentBg)!important;
+}
+
+/*radio & checkboxes color  + border*/
+input[type=radio], input[type=checkbox] {
+  background-color: var(--colorAccentBgDarker)!important;
+}
+.theme-dark input[type=radio], .theme-dark input[type=checkbox] {
+  border-color: transparent!important;
+}
+
+/*Sidebar border*/
+#panels-container.left #switch {
+  box-shadow: inset -1px 0 var(--colorAccentBg)!important;
+}
+
+/*Sidebar description resizer*/
+#panels button.fullwidth.alternate:after {
+  background-image: linear-gradient(var(--colorAccentBg), var(--colorAccentBgDark))!important;
+ border: solid var(--colorAccentBg)!important;
+}
+
+/*Sidebar icons active*/
+#switch button.active {
+ border-color: var(--colorAccentBg)!important;
+}
+
+/*Sidebar Hover buttons sideborder*/
+#switch button:hover:not(.active), #switch button:focus:not(.active) {
+ box-shadow: inset -1px 0 0 var(--colorAccentBg)!important;
+}
+
+/*Hover Toolbar buttons topBorder*/
+.button-toolbar-small:hover, .button-toolbar-small:focus:not([tabindex='-1']) {
+ box-shadow: inset 0 1px 0 var(--colorAccentBg)!important;
+}
+
+/*Zoom Control Border*/
+#footer .zoom-control {
+ border-left: 1px solid var(--colorAccentBg)!important;
+}
+
+/*Panel Border*/
+#panels-container:after {
+ background-color: var(--colorAccentBg)!important;
+}
+
+/*url history & bookmark button border*/
+button.button-addressfield:hover {
+ border-color: var(--colorAccentBg)!important;
+}
+
+/*Note Editor Border needs to be edited*/
+#notes-panel .notes-editor .editor {border-color: transparent !important;}
+#notes-panel .notes-editor .notes-add-attachment, #notes-panel .notes-editor .notes-add-area-capture, #notes-panel .notes-editor .notes-toggle-md  {border: 1px solid var(--colorAccentBg)!important;}
+
+/*Scrollbar on Panel*/
+#browser ::-webkit-scrollbar-thumb {border: 2px solid var(--colorAccentBgDark)!important; background-color: var(--colorAccentBgDark)!important;}
+#browser ::-webkit-scrollbar-thumb:hover  {border: 2px solid var(--colorAccentBgFaded)!important;background-color: var(--colorAccentBgFaded)!important;}
+#browser ::-webkit-scrollbar-thumb:active  {border: 2px solid var(--colorAccentBgFadedMost)!important;background-color: var(--colorAccentBgFadedMost)!important;}
+#browser ::-webkit-scrollbar-track{background-color: var(--colorAccentBgDarker)!important;}
+
+/*Find Page Borders*/
+.find-in-page {border-top: 1px solid var(--AccentcolorBg)!important;
+  border-bottom: 1px solid var(--AccentcolorBg)!important;}
+
+  /* Speed dial thumbnails opacity */
+.thumbnail {
+  opacity: 0.4;
+}
+/* Speed dial thumbnails opacity on hover */
+.thumbnail:hover {
+  opacity: 1.0;
+}
+/*Seperators in URL dropdown*/
+.urlSearch section + section {border-top: 1px solid transparent!important;}
+
+::selection {
+    background-color: var(--colorHighlightBg) !important;
+    color: white;
+}
+@keyframes fade{
+    from {opacity:1}
+    to {opacity:0.4}
+}
+/*Hide People icon*/
+#main > div.toolbar-addressbar.toolbar > div:nth-child(3){
+ display: none;
+}
