@@ -1,0 +1,6 @@
+button.button-toolbar.toggle-extensions-group:focus:not(:hover), .extensions-wrapper .actionVisibility-hidden:not(:hover) {
+    background-color: unset;
+}
+.color-behind-tabs-off .toolbar-addressbar .button-toolbar.browserAction-button.popup-visible {
+    background-color: var(--colorAccentBgDark);
+}
