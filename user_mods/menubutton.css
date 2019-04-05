@@ -1,0 +1,37 @@
+.toolbar.toolbar-addressbar .button-toolbar svg,
+.button-tabbar svg path, .vivaldi svg path {
+    fill: var(--colorAccentBgDark);
+-webkit-filter: brightness(150%) contrast(40%);
+}
+.button-tabbar:hover, .vivaldi:hover svg path {
+    opacity: 1;
+}
+.button-tabbar, .vivaldi svg path {
+    opacity: .6;
+}
+#browser.isblurred #tabs-container .button-tabbar, #browser.isblurred .vivaldi svg path {
+    opacity: .3;
+}
+#browser.tabs-top .vivaldi {
+/* alt/right */
+    left: auto !important;
+    top: 0;
+    right: 0;
+    width: auto;
+}
+#browser #tabs-container.top {
+/* alt/right */
+    margin-left: -1px;
+    padding-left: 0px;
+    padding-right: 28px !important;
+}
+#browser.tabs-top .vivaldi svg {
+    width: 37px;
+    height: 37px;
+}
+#browser.maximized .vivaldi svg {
+    margin-top: -5px;
+}
+.vivaldi svg path:first-of-type {
+    opacity: 0 !important
+}
